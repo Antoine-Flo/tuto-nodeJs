@@ -10,7 +10,7 @@
 ***
 ## 3 - Script NPM
 
-`"serv": "nodemon server.js"`
+`"dev": "nodemon server.js"`
 ***
 
 ## 4 - Create module

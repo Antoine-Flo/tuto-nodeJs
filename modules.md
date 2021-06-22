@@ -1,3 +1,5 @@
+# Tous les Modules Node.Js
+
 ## Assertion testing
 Permet de créer des test pour comparer résultats obtenu et résultat attendu, renvoi erreure si résultat faux.
 Example 
@@ -9,7 +11,7 @@ assert.equal(1, 1);
 assert.equal(1, 2);
 // Assertion Error
 ```
-
+***
 ## Async hooks
 Réagir au cycle de vie d'une ressource asynchrone
 ```js
@@ -22,14 +24,40 @@ const myFirstHook = async_hooks.createHook({ init, before, after, destroy, promi
 myFirstHook.enable()
 
 ```
+***
 ## Buffer
+Créer un conteneur de données.
+```js
+// Objet global, pas besoin de require
+const myFirstBuffer = Buffer.from({1, 2, 3})
+
+```
+***
 ## C++ addons
+Interface entre JavaScript et C++
+***
+
 ## C/C++ addons with Node-API
+Créer des add-ons
+***
+
 ## C++ embedder API
+Executer JavaScript dans NodeJs à partir d'un autre C++ engine.
+
+***
 ## Child processes
+Créer de nouveaux processus pour multi-threading
+
+***
 ## Cluster
+Distribue NodeJs process sur multiple cores (PM2)
+***
 ## Command-line options
+
+***
 ## Console
+
+***
 ## Crypto
 ## Debugger
 ## Deprecated APIs
